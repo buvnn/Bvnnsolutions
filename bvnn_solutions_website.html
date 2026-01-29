@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BVNN Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #0D47A1, #2196F3);
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 28px;
+      margin: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #2196F3, #64B5F6);
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      padding: 12px 30px;
+      font-size: 18px;
+      font-weight: 600;
+      border: none;
+      background-color: #0D47A1;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    section {
+      padding: 80px 40px;
+    }
+    section h2 {
+      font-size: 32px;
+      color: #0D47A1;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .about p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .service-card {
+      flex: 1 1 280px;
+      background: #f2f7ff;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .service-card h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #0D47A1;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    .contact-form button {
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      background-color: #0D47A1;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .contact-links p {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+    footer {
+      background: #0D47A1;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BVNN Solutions</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Bold Vision for New Opportunities</h2>
+    <button onclick="document.getElementById('contact').scrollIntoView()">Get Started</button>
+  </div>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am Bhuvankumar Kanche, the founder of BVNN Solutions, a dynamic startup focused on empowering students and helping businesses grow through innovative digital solutions, skill-building programs, and professional guidance. With a strong passion for technology, education, and business development, I aim to bridge the gap between talent, technology, and opportunities. My company helps B.Tech students across India with admissions, guidance, and hands-on skill programs, while also supporting businesses with website development, digital marketing, and growth strategies. I am committed to delivering practical, impactful solutions that drive real growth for both students and businesses, backed by a bold vision for new opportunities.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <h3>💻 Websites & Digital Marketing</h3>
+        <p>Design & Online Promotion for businesses and startups.</p>
+      </div>
+      <div class="service-card">
+        <h3>🏢 Corporate Solutions</h3>
+        <p>Lead Generation & Branding / Business Support.</p>
+      </div>
+      <div class="service-card">
+        <h3>📈 Business Growth</h3>
+        <p>Scaling companies & boosting performance.</p>
+      </div>
+      <div class="service-card">
+        <h3>🎓 Student Admissions Support</h3>
+        <p>B.Tech admissions assistance across India.</p>
+      </div>
+      <div class="service-card">
+        <h3>💻 Tech Skill Programs</h3>
+        <p>Hands-on digital skill training & workshops.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>DM me on WhatsApp, Email, or LinkedIn to connect!</p>
+    <div class="contact-form">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <input type="tel" placeholder="Your Phone">
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button>Send Message</button>
+    </div>
+    <div class="contact-links">
+      <p>📞 WhatsApp: 9182007044</p>
+      <p>📧 Email: buvnnkanche@gmail.com</p>
+      <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/bhuvan-kumar-222006366/" target="_blank" style="color:#fff;text-decoration:underline;">Bhuvankumar Kanche</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 BVNN Solutions</p>
+    <p>Your Bridge to Growth & Opportunities</p>
+  </footer>
+</body>
+</html>
